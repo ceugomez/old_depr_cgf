@@ -1,0 +1,4 @@
+- change lidar from rplidar to SF45/B params
+- check pipe gz->ros2 for LIDAR output
+- gen pointcloud?
+- more stuff, probably 
