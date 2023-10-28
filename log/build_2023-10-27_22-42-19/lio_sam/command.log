@@ -1,0 +1,2 @@
+Invoking command in '/home/ceu/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/lio_sam
+Invoked command in '/home/ceu/ros2_ws/build/lio_sam' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/lio_sam

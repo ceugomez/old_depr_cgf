@@ -1,0 +1,6 @@
+[0.288s] Invoking command in '/home/ceu/FRAME_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/FRAME_ws/build/px4_msgs -- -j12 -l12
+[0.297s] CMake Error: The current CMakeCache.txt directory /home/ceu/FRAME_ws/build/px4_msgs/CMakeCache.txt is different than the directory /home/ceu/ros2_ws/build/px4_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.832s] CMake Error: The source directory "/home/ceu/ros2_ws/src/px4_msgs" does not exist.
+[0.832s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.832s] make: *** [Makefile:46108: cmake_check_build_system] Error 1
+[0.835s] Invoked command in '/home/ceu/FRAME_ws/build/px4_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/FRAME_ws/build/px4_msgs -- -j12 -l12

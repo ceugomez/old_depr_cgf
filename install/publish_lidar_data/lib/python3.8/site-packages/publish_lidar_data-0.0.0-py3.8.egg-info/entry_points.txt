@@ -1,0 +1,3 @@
+[console_scripts]
+first_node = publish_lidar_data.first_node:main
+

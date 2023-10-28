@@ -1,0 +1,3 @@
+source;share/publish_lidar_data/hook/pythonpath.ps1
+source;share/publish_lidar_data/hook/pythonpath.dsv
+source;share/publish_lidar_data/hook/pythonpath.sh
