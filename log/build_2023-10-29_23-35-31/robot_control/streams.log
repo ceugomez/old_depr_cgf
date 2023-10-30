@@ -1,0 +1,26 @@
+[0.627s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[0.722s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[1.505s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_control
+[1.514s] -- Install configuration: ""
+[1.514s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control//scripts
+[1.514s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control//scripts/robot_control.py
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control//launch
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control//launch/robot_control.launch.py
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/lib/robot_control/robot_control.py
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/lib/robot_control/robot_control.launch.py
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[1.515s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[1.516s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[1.516s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_control/share/robot_control/package.xml
+[2.193s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_control

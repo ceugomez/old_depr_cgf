@@ -1,0 +1,23 @@
+[1.689s] Invoking command in '/home/ceu/ros2_ws/src/px4-offboard': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/build/px4_offboard/prefix_override:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/ceu/ros2_ws/build/px4_offboard/build install --record /home/ceu/ros2_ws/build/px4_offboard/install.log --single-version-externally-managed
+[2.020s] running egg_info
+[2.020s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[2.020s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[2.021s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[2.021s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[2.021s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[2.024s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[2.024s] adding license file 'LICENSE'
+[2.025s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[2.025s] running build
+[2.025s] running build_py
+[2.025s] running install
+[2.026s] running install_lib
+[2.027s] running install_data
+[2.028s] running install_egg_info
+[2.030s] removing '/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages/px4_offboard-0.0.0-py3.8.egg-info' (and everything under it)
+[2.030s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages/px4_offboard-0.0.0-py3.8.egg-info
+[2.031s] running install_scripts
+[2.053s] Installing offboard_control script to /home/ceu/ros2_ws/install/px4_offboard/lib/px4_offboard
+[2.053s] Installing visualizer script to /home/ceu/ros2_ws/install/px4_offboard/lib/px4_offboard
+[2.053s] writing list of installed files to '/home/ceu/ros2_ws/build/px4_offboard/install.log'
+[2.072s] Invoked command in '/home/ceu/ros2_ws/src/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/build/px4_offboard/prefix_override:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/ceu/ros2_ws/build/px4_offboard/build install --record /home/ceu/ros2_ws/build/px4_offboard/install.log --single-version-externally-managed
