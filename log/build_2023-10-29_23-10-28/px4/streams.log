@@ -1,0 +1,17 @@
+[0.509s] Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4 -- -j12 -l12
+[0.569s] [  1%] Built target drivers_board
+[0.569s] [  1%] Built target px4_layer
+[0.607s] [  1%] Built target px4__cpp
+[0.630s] [ 14%] Built target px4__rosidl_generator_c
+[0.671s] [ 26%] Built target px4__rosidl_typesupport_cpp
+[0.689s] [ 39%] Built target px4__rosidl_typesupport_introspection_cpp
+[0.700s] [ 51%] Built target px4__rosidl_typesupport_c
+[0.723s] [ 63%] Built target px4__rosidl_typesupport_fastrtps_cpp
+[0.726s] [ 75%] Built target px4__rosidl_typesupport_introspection_c
+[0.811s] [ 88%] Built target px4__rosidl_typesupport_fastrtps_c
+[0.834s] [ 88%] Built target px4
+[0.867s] [ 88%] Built target px4__py
+[1.033s] [100%] Built target px4__python
+[1.067s] [100%] Built target px4__rosidl_typesupport_c__pyext
+[1.067s] [100%] Built target px4__rosidl_typesupport_introspection_c__pyext
+[1.067s] [100%] Built target px4__rosidl_typesupport_fastrtps_c__pyext

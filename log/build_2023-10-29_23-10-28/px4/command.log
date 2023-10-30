@@ -1,0 +1,1 @@
+Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4 -- -j12 -l12

@@ -1,0 +1,4 @@
+Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4 -- -j12 -l12
+Invoked command in '/home/ceu/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4 -- -j12 -l12
+Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4
+Invoked command in '/home/ceu/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4

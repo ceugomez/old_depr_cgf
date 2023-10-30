@@ -1,0 +1,5 @@
+[0.382s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[0.405s] CMake Error: The source directory "/home/ceu/ros2_ws/src/lio_sam_gazebo_ros2/src/robot_control" does not exist.
+[0.407s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.407s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.407s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12

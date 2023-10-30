@@ -1,0 +1,5 @@
+[0.595s] Invoking command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_gazebo_plugins -- -j12 -l12
+[0.850s] [35m[1mScanning dependencies of target gazebo_ros_velodyne_laser[0m
+[0.851s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[11.403s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[11.931s] [100%] Built target gazebo_ros_velodyne_laser

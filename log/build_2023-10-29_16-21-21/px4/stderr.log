@@ -1,0 +1,2 @@
+Architecture:  amd64
+==> CPACK_INSTALL_PREFIX = @DEB_INSTALL_PREFIX@

@@ -1,0 +1,175 @@
+[0.173s] Invoking command in '/home/ceu/ros2_ws/build/robot_gazebo': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_gazebo
+[0.246s] -- The C compiler identification is GNU 9.4.0
+[0.304s] -- The CXX compiler identification is GNU 9.4.0
+[0.307s] -- Check for working C compiler: /usr/bin/cc
+[0.383s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.384s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.486s] -- Detecting C compile features
+[0.487s] -- Detecting C compile features - done
+[0.491s] -- Check for working CXX compiler: /usr/bin/c++
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.584s] -- Detecting CXX compiler ABI info
+[0.676s] -- Detecting CXX compiler ABI info - done
+[0.691s] -- Detecting CXX compile features
+[0.691s] -- Detecting CXX compile features - done
+[0.694s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.721s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.721s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.016s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.109s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.124s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.126s] -- Added test 'lint_cmake' to check CMake code style
+[1.129s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.137s] -- Added test 'xmllint' to check XML markup files
+[1.140s] -- Configuring done
+[1.141s] -- Generating done
+[1.142s] -- Build files have been written to: /home/ceu/ros2_ws/build/robot_gazebo
+[1.179s] Invoked command in '/home/ceu/ros2_ws/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_gazebo
+[1.182s] Invoking command in '/home/ceu/ros2_ws/build/robot_gazebo': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_gazebo -- -j12 -l12
+[1.413s] Invoked command in '/home/ceu/ros2_ws/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_gazebo -- -j12 -l12
+[1.438s] Invoking command in '/home/ceu/ros2_ws/build/robot_gazebo': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_gazebo
+[1.446s] -- Install configuration: ""
+[1.446s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//launch
+[1.446s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//launch/robot_sim.launch.py
+[1.447s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//launch/robot_state_publisher.launch.py
+[1.447s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models
+[1.447s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description
+[1.447s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/rviz
+[1.447s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/rviz/example.rviz
+[1.447s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/launch
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/launch/example-launch.py
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/CHANGELOG.rst
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/model.config
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL
+[1.448s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/lidar_head
+[1.449s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[1.449s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/base
+[1.449s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+[1.449s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+[1.449s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/lidar_base
+[1.449s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[1.450s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/suspension
+[1.450s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+[1.450s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[1.451s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[1.451s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[1.452s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[1.452s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/wheel
+[1.452s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[1.453s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors
+[1.453s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30
+[1.453s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[1.461s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf
+[1.461s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[1.462s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/camera
+[1.462s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf
+[1.462s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[1.468s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/gps
+[1.468s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[1.470s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE
+[1.470s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/lidar_head
+[1.471s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[1.471s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/base
+[1.472s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[1.480s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+[1.490s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/lidar_base
+[1.491s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[1.491s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/suspension
+[1.491s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[1.493s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[1.495s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[1.498s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[1.500s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/wheel
+[1.500s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[1.501s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors
+[1.502s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30
+[1.502s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[1.524s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[1.524s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf
+[1.524s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[1.526s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[1.526s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera
+[1.526s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[1.526s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf
+[1.526s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[1.526s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[1.543s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps
+[1.544s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[1.544s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[1.549s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/models/rs_robot/rs_robot.sdf
+[1.550s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/CMakeLists.txt
+[1.550s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/urdf
+[1.550s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/urdf/VLP-16.urdf.xacro
+[1.550s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/urdf/VLP-32C.urdf.xacro
+[1.550s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/urdf/HDL-32E.urdf.xacro
+[1.550s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/urdf/example.urdf.xacro
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/package.xml
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/HDL32E_scan.dae
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/VLP16_scan.stl
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/HDL32E_base.stl
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/VLP16_base_2.stl
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/HDL32E_base.dae
+[1.551s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/VLP16_scan.dae
+[1.552s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/VLP16_base_2.dae
+[1.552s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/VLP16_base_1.dae
+[1.552s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/HDL32E_scan.stl
+[1.552s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/meshes/VLP16_base_1.stl
+[1.553s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/world
+[1.553s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/world/lio_sam.model
+[1.553s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/velodyne_description/world/example.world
+[1.553s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot
+[1.553s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/model.config
+[1.553s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/base
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/base/base_link.stl
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/front_wheel
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/front_wheel/wheel.stl
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/rear_wheel
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/rear_wheel/wheel.stl
+[1.554s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/suspension
+[1.555s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/suspension/front_right_sus.stl
+[1.555s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/suspension/front_left_sus.stl
+[1.555s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/camera
+[1.555s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/STL/camera/camera.stl
+[1.555s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE
+[1.556s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/base
+[1.556s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/base/base_link.dae
+[1.556s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/front_wheel
+[1.556s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/front_wheel/wheel.dae
+[1.556s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/rear_wheel
+[1.557s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/rear_wheel/wheel.dae
+[1.557s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/suspension
+[1.557s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/suspension/front_right_sus.dae
+[1.557s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/suspension/front_left_sus.dae
+[1.557s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/camera
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/camera/camera.dae
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/camera_stay
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/meshes/DAE/camera_stay/camera_stay.dae
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//models/robot/robot.sdf
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//urdf
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//urdf/robot.urdf
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//worlds
+[1.558s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo//worlds/lio_world.model
+[1.559s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/lib/robot_gazebo/robot_sim.launch.py
+[1.559s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/package_run_dependencies/robot_gazebo
+[1.559s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/parent_prefix_path/robot_gazebo
+[1.559s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.sh
+[1.559s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/environment/ament_prefix_path.dsv
+[1.560s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/environment/path.sh
+[1.560s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/environment/path.dsv
+[1.560s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/local_setup.bash
+[1.560s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/local_setup.sh
+[1.560s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/local_setup.zsh
+[1.560s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/local_setup.dsv
+[1.561s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.dsv
+[1.561s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/ament_index/resource_index/packages/robot_gazebo
+[1.561s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig.cmake
+[1.561s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake
+[1.561s] -- Installing: /home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.xml
+[1.563s] Invoked command in '/home/ceu/ros2_ws/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_gazebo

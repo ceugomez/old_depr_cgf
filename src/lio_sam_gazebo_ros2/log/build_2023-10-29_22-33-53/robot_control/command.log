@@ -1,6 +1,0 @@
-Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/Desktop/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control
-Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/Desktop/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control
-Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control -- -j12 -l12
-Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control -- -j12 -l12
-Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control
-Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control

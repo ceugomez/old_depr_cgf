@@ -1,0 +1,54 @@
+[0.463s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_control
+[0.534s] -- The C compiler identification is GNU 9.4.0
+[0.622s] -- The CXX compiler identification is GNU 9.4.0
+[0.629s] -- Check for working C compiler: /usr/bin/cc
+[0.716s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.717s] -- Detecting C compiler ABI info
+[0.798s] -- Detecting C compiler ABI info - done
+[0.810s] -- Detecting C compile features
+[0.811s] -- Detecting C compile features - done
+[0.814s] -- Check for working CXX compiler: /usr/bin/c++
+[0.909s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.910s] -- Detecting CXX compiler ABI info
+[1.002s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Detecting CXX compile features
+[1.019s] -- Detecting CXX compile features - done
+[1.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.377s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.513s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.517s] -- Added test 'lint_cmake' to check CMake code style
+[1.517s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.517s] -- Added test 'xmllint' to check XML markup files
+[1.521s] -- Configuring done
+[1.525s] -- Generating done
+[1.525s] -- Build files have been written to: /home/ceu/ros2_ws/build/robot_control
+[2.114s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_control
+[2.118s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[2.170s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[2.197s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_control
+[2.206s] -- Install configuration: ""
+[2.207s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control//scripts
+[2.207s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control//scripts/robot_control.py
+[2.207s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control//launch
+[2.207s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control//launch/robot_control.launch.py
+[2.207s] -- Installing: /home/ceu/ros2_ws/install/robot_control/lib/robot_control/robot_control.py
+[2.207s] -- Installing: /home/ceu/ros2_ws/install/robot_control/lib/robot_control/robot_control.launch.py
+[2.208s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[2.208s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[2.208s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[2.208s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[2.208s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[2.208s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[2.209s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[2.209s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[2.209s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[2.209s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[2.209s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[2.209s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[2.210s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[2.210s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[2.210s] -- Installing: /home/ceu/ros2_ws/install/robot_control/share/robot_control/package.xml
+[2.212s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_control

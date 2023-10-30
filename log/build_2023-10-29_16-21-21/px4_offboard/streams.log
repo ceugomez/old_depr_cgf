@@ -1,0 +1,23 @@
+[1.915s] Invoking command in '/home/ceu/ros2_ws/src/px4-offboard': CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/home/ceu/ros2_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:/home/ceu/ros2_ws/install/px4_ros_com/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ceu/ros2_ws/build/px4_offboard/prefix_override:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/ceu/ros2_ws/build/px4_offboard/build install --record /home/ceu/ros2_ws/build/px4_offboard/install.log --single-version-externally-managed
+[2.245s] running egg_info
+[2.246s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[2.246s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[2.246s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[2.247s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[2.247s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[2.251s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[2.254s] adding license file 'LICENSE'
+[2.255s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[2.255s] running build
+[2.255s] running build_py
+[2.256s] running install
+[2.257s] running install_lib
+[2.259s] running install_data
+[2.260s] running install_egg_info
+[2.262s] removing '/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages/px4_offboard-0.0.0-py3.8.egg-info' (and everything under it)
+[2.262s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages/px4_offboard-0.0.0-py3.8.egg-info
+[2.263s] running install_scripts
+[2.291s] Installing offboard_control script to /home/ceu/ros2_ws/install/px4_offboard/lib/px4_offboard
+[2.291s] Installing visualizer script to /home/ceu/ros2_ws/install/px4_offboard/lib/px4_offboard
+[2.292s] writing list of installed files to '/home/ceu/ros2_ws/build/px4_offboard/install.log'
+[2.314s] Invoked command in '/home/ceu/ros2_ws/src/px4-offboard' returned '0': CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/home/ceu/ros2_ws/install/px4_ros_com LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:/home/ceu/ros2_ws/install/px4_ros_com/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ceu/ros2_ws/build/px4_offboard/prefix_override:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/ceu/ros2_ws/build/px4_offboard/build install --record /home/ceu/ros2_ws/build/px4_offboard/install.log --single-version-externally-managed

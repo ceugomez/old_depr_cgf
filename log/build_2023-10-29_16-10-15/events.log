@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.000107] (-) JobUnselected: {'identifier': 'lio_sam'}
+[0.000133] (-) JobUnselected: {'identifier': 'publish_lidar_data'}
+[0.000201] (-) JobUnselected: {'identifier': 'px4'}
+[0.000225] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000240] (-) JobUnselected: {'identifier': 'px4_offboard'}
+[0.000254] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000268] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000282] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000295] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000309] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000322] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000337] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/ceu/ros2_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/ceu/ros2_ws/install/ros_gz_sim'), ('ros_gz_bridge', '/home/ceu/ros2_ws/install/ros_gz_bridge'), ('ros_gz_image', '/home/ceu/ros2_ws/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/ceu/ros2_ws/install/ros_gz_sim_demos')])}
+[0.000361] (ros_gz) JobStarted: {'identifier': 'ros_gz'}
+[0.099379] (-) TimerEvent: {}
+[0.200585] (-) TimerEvent: {}
+[0.203786] (ros_gz) JobEnded: {'identifier': 'ros_gz', 'rc': 1}
+[0.214277] (-) EventReactorShutdown: {}

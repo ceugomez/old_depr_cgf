@@ -1,0 +1,2 @@
+[0.387s] Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[0.428s] Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12

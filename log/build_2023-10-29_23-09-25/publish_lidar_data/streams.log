@@ -1,0 +1,24 @@
+[0.889s] Invoking command in '/home/ceu/ros2_ws/src/publish_lidar_data': PYTHONPATH=/home/ceu/ros2_ws/build/publish_lidar_data/prefix_override:/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publish_lidar_data build --build-base /home/ceu/ros2_ws/build/publish_lidar_data/build install --record /home/ceu/ros2_ws/build/publish_lidar_data/install.log --install-scripts $base/lib/publish_lidar_data --single-version-externally-managed
+[1.132s] /home/ceu/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.132s]   warnings.warn(
+[1.161s] running egg_info
+[1.162s] writing ../../build/publish_lidar_data/publish_lidar_data.egg-info/PKG-INFO
+[1.162s] writing dependency_links to ../../build/publish_lidar_data/publish_lidar_data.egg-info/dependency_links.txt
+[1.162s] writing entry points to ../../build/publish_lidar_data/publish_lidar_data.egg-info/entry_points.txt
+[1.162s] writing requirements to ../../build/publish_lidar_data/publish_lidar_data.egg-info/requires.txt
+[1.162s] writing top-level names to ../../build/publish_lidar_data/publish_lidar_data.egg-info/top_level.txt
+[1.173s] reading manifest file '../../build/publish_lidar_data/publish_lidar_data.egg-info/SOURCES.txt'
+[1.174s] writing manifest file '../../build/publish_lidar_data/publish_lidar_data.egg-info/SOURCES.txt'
+[1.175s] running build
+[1.175s] running build_py
+[1.175s] running install
+[1.175s] running install_lib
+[1.177s] byte-compiling /home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages/publish_lidar_data/first_node.py to first_node.cpython-38.pyc
+[1.177s] running install_data
+[1.178s] running install_egg_info
+[1.180s] removing '/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages/publish_lidar_data-0.0.0-py3.8.egg-info' (and everything under it)
+[1.180s] Copying ../../build/publish_lidar_data/publish_lidar_data.egg-info to /home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages/publish_lidar_data-0.0.0-py3.8.egg-info
+[1.181s] running install_scripts
+[1.200s] Installing first_node script to /home/ceu/ros2_ws/install/publish_lidar_data/lib/publish_lidar_data
+[1.201s] writing list of installed files to '/home/ceu/ros2_ws/build/publish_lidar_data/install.log'
+[1.237s] Invoked command in '/home/ceu/ros2_ws/src/publish_lidar_data' returned '0': PYTHONPATH=/home/ceu/ros2_ws/build/publish_lidar_data/prefix_override:/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publish_lidar_data build --build-base /home/ceu/ros2_ws/build/publish_lidar_data/build install --record /home/ceu/ros2_ws/build/publish_lidar_data/install.log --install-scripts $base/lib/publish_lidar_data --single-version-externally-managed

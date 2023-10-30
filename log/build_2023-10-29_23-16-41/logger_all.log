@@ -1,0 +1,1134 @@
+[2.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.079s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff050bf41c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff050bf41c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff050bf4e20>)
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.167s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ceu/ros2_ws'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'ignore_ament_install'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extensions ['colcon_pkg']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'colcon_pkg'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extensions ['colcon_meta']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'colcon_meta'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extensions ['ros']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'ros'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extensions ['cmake', 'python']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'cmake'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'python'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extensions ['python_setup_py']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2) by extension 'python_setup_py'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'ignore_ament_install'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extensions ['colcon_pkg']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'colcon_pkg'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extensions ['colcon_meta']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'colcon_meta'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extensions ['ros']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'ros'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extensions ['cmake', 'python']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'cmake'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'python'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extensions ['python_setup_py']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models) by extension 'python_setup_py'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extensions ['ignore', 'ignore_ament_install']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'ignore'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'ignore_ament_install'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extensions ['colcon_pkg']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'colcon_pkg'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extensions ['colcon_meta']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'colcon_meta'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extensions ['ros']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'ros'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extensions ['cmake', 'python']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'cmake'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'python'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extensions ['python_setup_py']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3) by extension 'python_setup_py'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extensions ['ignore', 'ignore_ament_install']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'ignore_ament_install'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extensions ['colcon_pkg']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'colcon_pkg'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extensions ['colcon_meta']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'colcon_meta'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extensions ['ros']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'ros'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extensions ['cmake', 'python']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'cmake'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'python'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extensions ['python_setup_py']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials) by extension 'python_setup_py'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'ignore_ament_install'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extensions ['colcon_pkg']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'colcon_pkg'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extensions ['colcon_meta']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'colcon_meta'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extensions ['ros']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'ros'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extensions ['cmake', 'python']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'cmake'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'python'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extensions ['python_setup_py']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/scripts) by extension 'python_setup_py'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'ignore'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'ignore_ament_install'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extensions ['colcon_pkg']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'colcon_pkg'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extensions ['colcon_meta']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'colcon_meta'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extensions ['ros']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'ros'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extensions ['cmake', 'python']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'cmake'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'python'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extensions ['python_setup_py']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/materials/textures) by extension 'python_setup_py'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extensions ['ignore', 'ignore_ament_install']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'ignore'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'ignore_ament_install'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extensions ['colcon_pkg']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'colcon_pkg'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extensions ['colcon_meta']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'colcon_meta'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extensions ['ros']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'ros'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extensions ['cmake', 'python']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'cmake'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'python'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extensions ['python_setup_py']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/brick_box_3x1x3/meshes) by extension 'python_setup_py'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extensions ['ignore', 'ignore_ament_install']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'ignore'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'ignore_ament_install'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extensions ['colcon_pkg']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'colcon_pkg'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extensions ['colcon_meta']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'colcon_meta'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extensions ['ros']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'ros'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extensions ['cmake', 'python']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'cmake'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'python'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extensions ['python_setup_py']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel) by extension 'python_setup_py'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extensions ['ignore', 'ignore_ament_install']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'ignore'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'ignore_ament_install'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extensions ['colcon_pkg']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'colcon_pkg'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extensions ['colcon_meta']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'colcon_meta'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extensions ['ros']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'ros'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extensions ['cmake', 'python']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'cmake'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'python'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extensions ['python_setup_py']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials) by extension 'python_setup_py'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'ignore'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'ignore_ament_install'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extensions ['colcon_pkg']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'colcon_pkg'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extensions ['colcon_meta']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'colcon_meta'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extensions ['ros']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'ros'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extensions ['cmake', 'python']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'cmake'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'python'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extensions ['python_setup_py']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/materials/textures) by extension 'python_setup_py'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extensions ['ignore', 'ignore_ament_install']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'ignore'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'ignore_ament_install'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extensions ['colcon_pkg']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'colcon_pkg'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extensions ['colcon_meta']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'colcon_meta'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extensions ['ros']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'ros'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extensions ['cmake', 'python']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'cmake'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'python'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extensions ['python_setup_py']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/construction_barrel/meshes) by extension 'python_setup_py'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extensions ['ignore', 'ignore_ament_install']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'ignore'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'ignore_ament_install'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extensions ['colcon_pkg']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'colcon_pkg'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extensions ['colcon_meta']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'colcon_meta'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extensions ['ros']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'ros'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extensions ['cmake', 'python']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'cmake'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'python'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extensions ['python_setup_py']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage) by extension 'python_setup_py'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extensions ['ignore', 'ignore_ament_install']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'ignore'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'ignore_ament_install'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extensions ['colcon_pkg']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'colcon_pkg'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extensions ['colcon_meta']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'colcon_meta'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extensions ['ros']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'ros'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extensions ['cmake', 'python']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'cmake'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'python'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extensions ['python_setup_py']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/materials) by extension 'python_setup_py'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extensions ['ignore', 'ignore_ament_install']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'ignore'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'ignore_ament_install'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extensions ['colcon_pkg']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'colcon_pkg'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extensions ['colcon_meta']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'colcon_meta'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extensions ['ros']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'ros'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extensions ['cmake', 'python']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'cmake'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'python'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extensions ['python_setup_py']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/models/rtab_map_stage/meshes) by extension 'python_setup_py'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'ignore'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'ignore_ament_install'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'colcon_meta'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extensions ['ros']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'ros'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extensions ['cmake', 'python']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'cmake'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'python'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extensions ['python_setup_py']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src) by extension 'python_setup_py'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extension 'ignore'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extension 'ignore_ament_install'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extension 'colcon_meta'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extensions ['ros']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/LIO-SAM-ros2) by extension 'ros'
+[2.200s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/LIO-SAM-ros2' with type 'ros.ament_cmake' and name 'lio_sam'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extension 'ignore'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extension 'ignore_ament_install'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extensions ['colcon_meta']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extension 'colcon_meta'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extensions ['ros']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_control) by extension 'ros'
+[2.201s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/robot_control' with type 'ros.ament_cmake' and name 'robot_control'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extension 'ignore'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extension 'ignore_ament_install'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extensions ['colcon_pkg']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extension 'colcon_pkg'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extension 'colcon_meta'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extensions ['ros']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_description) by extension 'ros'
+[2.202s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extension 'ignore'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extension 'ignore_ament_install'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extensions ['colcon_pkg']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extension 'colcon_pkg'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extensions ['colcon_meta']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/robot_gazebo) by extension 'ros'
+[2.202s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/robot_gazebo' with type 'ros.ament_cmake' and name 'robot_gazebo'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'ignore'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'ignore_ament_install'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extensions ['colcon_pkg']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'colcon_pkg'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extensions ['colcon_meta']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'colcon_meta'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extensions ['ros']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'ros'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extensions ['cmake', 'python']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'cmake'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'python'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extensions ['python_setup_py']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator) by extension 'python_setup_py'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extensions ['ignore', 'ignore_ament_install']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'ignore'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'ignore_ament_install'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extensions ['colcon_pkg']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'colcon_pkg'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extensions ['colcon_meta']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'colcon_meta'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extensions ['ros']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'ros'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extensions ['cmake', 'python']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'cmake'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'python'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extensions ['python_setup_py']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/img) by extension 'python_setup_py'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extensions ['ignore', 'ignore_ament_install']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extension 'ignore'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extension 'ignore_ament_install'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extensions ['colcon_pkg']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extension 'colcon_pkg'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extensions ['colcon_meta']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extension 'colcon_meta'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extensions ['ros']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description) by extension 'ros'
+[2.205s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description' with type 'ros.ament_cmake' and name 'velodyne_description'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ignore_ament_install'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_pkg']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_pkg'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['colcon_meta']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'colcon_meta'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extensions ['ros']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins) by extension 'ros'
+[2.206s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins' with type 'ros.ament_cmake' and name 'velodyne_gazebo_plugins'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extensions ['ignore', 'ignore_ament_install']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extension 'ignore'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extension 'ignore_ament_install'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_pkg']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extension 'colcon_pkg'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extensions ['colcon_meta']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extension 'colcon_meta'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extensions ['ros']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator) by extension 'ros'
+[2.207s] DEBUG:colcon.colcon_core.package_identification:Package 'lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator' with type 'ros.ament_cmake' and name 'velodyne_simulator'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['ignore', 'ignore_ament_install']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'ignore'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'ignore_ament_install'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['colcon_pkg']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'colcon_pkg'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['colcon_meta']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'colcon_meta'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extensions ['ros']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/PX4-Autopilot) by extension 'ros'
+[2.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/PX4-Autopilot' with type 'ros.ament_cmake' and name 'px4'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'ignore'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'ignore_ament_install'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extensions ['colcon_pkg']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'colcon_pkg'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extensions ['colcon_meta']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'colcon_meta'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extensions ['ros']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'ros'
+[2.209s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/publish_lidar_data'
+[2.209s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/publish_lidar_data': Error(s) in package 'src/publish_lidar_data/package.xml':
+Invalid email "ceu@cego6160@colorado.edu" for person "ceu"
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extensions ['cmake', 'python']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'cmake'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'python'
+[2.210s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/publish_lidar_data' passes arguments to the setup() function which requires a different identification extension than 'python'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extensions ['python_setup_py']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/publish_lidar_data) by extension 'python_setup_py'
+[2.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publish_lidar_data' with type 'python' and name 'publish_lidar_data'
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['ignore', 'ignore_ament_install']
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ignore'
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ignore_ament_install'
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['colcon_pkg']
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'colcon_pkg'
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['colcon_meta']
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'colcon_meta'
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['ros']
+[2.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ros'
+[2.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[2.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[2.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[2.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[2.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[2.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.685s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/foxy
+[2.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_args' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_cache' from command line to 'False'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_first' from command line to 'False'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_force_configure' from command line to 'False'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'ament_cmake_args' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_cmake_args' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.829s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/lio_sam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/lio_sam', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2', 'symlink_install': False, 'test_result_base': None}
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'cmake_args' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'cmake_target' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'cmake_clean_cache' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'cmake_clean_first' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'cmake_force_configure' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'ament_cmake_args' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'catkin_cmake_args' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'publish_lidar_data' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.864s] DEBUG:colcon.colcon_core.verb:Building package 'publish_lidar_data' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/publish_lidar_data', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/publish_lidar_data', 'merge_install': False, 'path': '/home/ceu/ros2_ws/src/publish_lidar_data', 'symlink_install': False, 'test_result_base': None}
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_args' from command line to 'None'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target' from command line to 'None'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_cache' from command line to 'False'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_first' from command line to 'False'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_force_configure' from command line to 'False'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'ament_cmake_args' from command line to 'None'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_cmake_args' from command line to 'None'
+[2.899s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.899s] DEBUG:colcon.colcon_core.verb:Building package 'px4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/px4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/px4', 'merge_install': False, 'path': '/home/ceu/ros2_ws/src/PX4-Autopilot', 'symlink_install': False, 'test_result_base': None}
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.934s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.934s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/ceu/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.969s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/robot_control', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[3.003s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.004s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.004s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/robot_description', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_args' from command line to 'None'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target' from command line to 'None'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'velodyne_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.038s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/velodyne_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/velodyne_description', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description', 'symlink_install': False, 'test_result_base': None}
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'velodyne_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.074s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.108s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/px4_offboard', 'merge_install': False, 'path': '/home/ceu/ros2_ws/src/px4-offboard', 'symlink_install': False, 'test_result_base': None}
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.144s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/ceu/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.178s] Level 5:colcon.colcon_core.verb:set package 'robot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.178s] DEBUG:colcon.colcon_core.verb:Building package 'robot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/robot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/robot_gazebo', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[3.213s] Level 5:colcon.colcon_core.verb:set package 'velodyne_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.213s] DEBUG:colcon.colcon_core.verb:Building package 'velodyne_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ceu/ros2_ws/build/velodyne_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ceu/ros2_ws/install/velodyne_simulator', 'merge_install': False, 'path': '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator', 'symlink_install': False, 'test_result_base': None}
+[3.248s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[3.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/src/px4_msgs'
+[3.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description' with build type 'ament_cmake'
+[3.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description'
+[3.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description' with build type 'ament_cmake'
+[3.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description'
+[3.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins' with build type 'ament_cmake'
+[3.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins'
+[3.658s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.734s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2' with build type 'ament_cmake'
+[3.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2'
+[3.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.852s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ceu/ros2_ws/src/publish_lidar_data'
+[3.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.977s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/src/PX4-Autopilot' with build type 'ament_cmake'
+[3.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/src/PX4-Autopilot'
+[4.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.098s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control' with build type 'ament_cmake'
+[4.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control'
+[4.134s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/px4_msgs
+[4.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_description
+[4.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_description
+[4.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins
+[4.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2 -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/lio_sam
+[4.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/px4
+[4.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_control
+[5.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/src/publish_lidar_data': PYTHONPATH=/home/ceu/ros2_ws/build/publish_lidar_data/prefix_override:/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publish_lidar_data build --build-base /home/ceu/ros2_ws/build/publish_lidar_data/build install --record /home/ceu/ros2_ws/build/publish_lidar_data/install.log --install-scripts $base/lib/publish_lidar_data --single-version-externally-managed
+[5.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_description
+[5.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_description -- -j12 -l12
+[5.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_description -- -j12 -l12
+[5.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_description
+[5.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[5.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_description
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description' for CMake module files
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description' for CMake config files
+[5.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[5.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[5.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[5.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/bin'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/lib/python3.8/site-packages'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/bin'
+[5.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[5.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[5.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[5.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[5.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[5.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/src/publish_lidar_data' returned '0': PYTHONPATH=/home/ceu/ros2_ws/build/publish_lidar_data/prefix_override:/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publish_lidar_data build --build-base /home/ceu/ros2_ws/build/publish_lidar_data/build install --record /home/ceu/ros2_ws/build/publish_lidar_data/install.log --install-scripts $base/lib/publish_lidar_data --single-version-externally-managed
+[5.687s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data' for CMake module files
+[5.688s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data' for CMake config files
+[5.689s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data/lib'
+[5.689s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data/bin'
+[5.690s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data/lib/pkgconfig/publish_lidar_data.pc'
+[5.690s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages'
+[5.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('publish_lidar_data', 'pythonpath')
+[5.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/hook/pythonpath.ps1'
+[5.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/hook/pythonpath.dsv'
+[5.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/hook/pythonpath.sh'
+[5.737s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/publish_lidar_data/bin'
+[5.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publish_lidar_data)
+[5.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/package.ps1'
+[5.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/package.dsv'
+[5.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/package.sh'
+[5.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/package.bash'
+[5.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/publish_lidar_data/share/publish_lidar_data/package.zsh'
+[5.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/publish_lidar_data/share/colcon-core/packages/publish_lidar_data)
+[5.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[5.932s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description' for CMake module files
+[5.933s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description' for CMake config files
+[5.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[5.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[5.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[5.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[5.998s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/bin'
+[5.998s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/lib/python3.8/site-packages'
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_description/bin'
+[6.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[6.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[6.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[6.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[6.050s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo' with build type 'ament_cmake'
+[6.050s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo'
+[6.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_control
+[6.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[6.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_gazebo': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_gazebo
+[6.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_control -- -j12 -l12
+[6.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_control
+[6.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[6.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_control
+[6.364s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control' for CMake module files
+[6.365s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control' for CMake config files
+[6.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'cmake_prefix_path')
+[6.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.ps1'
+[6.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.dsv'
+[6.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.sh'
+[6.416s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/lib'
+[6.416s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/bin'
+[6.416s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/lib/pkgconfig/robot_control.pc'
+[6.416s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/lib/python3.8/site-packages'
+[6.416s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/bin'
+[6.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.ps1'
+[6.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.dsv'
+[6.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.sh'
+[6.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.bash'
+[6.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.zsh'
+[6.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/robot_control/share/colcon-core/packages/robot_control)
+[6.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[6.609s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control' for CMake module files
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control' for CMake config files
+[6.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'cmake_prefix_path')
+[6.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.ps1'
+[6.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.dsv'
+[6.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.sh'
+[6.682s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/lib'
+[6.683s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/bin'
+[6.683s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/lib/pkgconfig/robot_control.pc'
+[6.683s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/lib/python3.8/site-packages'
+[6.683s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_control/bin'
+[6.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.ps1'
+[6.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.dsv'
+[6.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.sh'
+[6.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.bash'
+[6.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_control/share/robot_control/package.zsh'
+[6.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/robot_control/share/colcon-core/packages/robot_control)
+[6.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_description
+[6.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_description -- -j12 -l12
+[6.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_description -- -j12 -l12
+[6.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/velodyne_description
+[7.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[7.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/velodyne_description
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description' for CMake module files
+[7.125s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description' for CMake config files
+[7.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[7.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[7.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/bin'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/lib/python3.8/site-packages'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/bin'
+[7.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.ps1'
+[7.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.dsv'
+[7.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.sh'
+[7.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.bash'
+[7.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.zsh'
+[7.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[7.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_gazebo
+[7.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_gazebo': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_gazebo -- -j12 -l12
+[7.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_description)
+[7.356s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description' for CMake module files
+[7.357s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description' for CMake config files
+[7.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_description', 'cmake_prefix_path')
+[7.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.ps1'
+[7.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.dsv'
+[7.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/hook/cmake_prefix_path.sh'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/bin'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/lib/pkgconfig/velodyne_description.pc'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/lib/python3.8/site-packages'
+[7.405s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_description/bin'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.ps1'
+[7.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.dsv'
+[7.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.sh'
+[7.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.bash'
+[7.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_description/share/velodyne_description/package.zsh'
+[7.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/velodyne_description/share/colcon-core/packages/velodyne_description)
+[7.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_gazebo -- -j12 -l12
+[7.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/robot_gazebo': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_gazebo
+[7.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_gazebo)
+[7.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/robot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/robot_description:/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_gazebo
+[7.664s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo' for CMake module files
+[7.664s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo' for CMake config files
+[7.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gazebo', 'cmake_prefix_path')
+[7.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.ps1'
+[7.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.dsv'
+[7.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.sh'
+[7.711s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/lib'
+[7.711s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/bin'
+[7.711s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/lib/pkgconfig/robot_gazebo.pc'
+[7.711s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/lib/python3.8/site-packages'
+[7.712s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/bin'
+[7.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.ps1'
+[7.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.dsv'
+[7.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.sh'
+[7.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.bash'
+[7.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.zsh'
+[7.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/robot_gazebo/share/colcon-core/packages/robot_gazebo)
+[7.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_gazebo)
+[7.886s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo' for CMake module files
+[7.887s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo' for CMake config files
+[7.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_gazebo', 'cmake_prefix_path')
+[7.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.ps1'
+[7.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.dsv'
+[7.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/hook/cmake_prefix_path.sh'
+[7.932s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/lib'
+[7.933s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/bin'
+[7.933s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/lib/pkgconfig/robot_gazebo.pc'
+[7.933s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/lib/python3.8/site-packages'
+[7.933s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/robot_gazebo/bin'
+[7.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.ps1'
+[7.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.dsv'
+[7.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.sh'
+[7.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.bash'
+[7.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/robot_gazebo/share/robot_gazebo/package.zsh'
+[7.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/robot_gazebo/share/colcon-core/packages/robot_gazebo)
+[7.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins
+[7.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_gazebo_plugins -- -j12 -l12
+[8.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/px4_msgs
+[8.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4_msgs -- -j12 -l12
+[9.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2 -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/lio_sam
+[9.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/lio_sam -- -j12 -l12
+[17.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/px4
+[18.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4 -- -j12 -l12
+[25.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_gazebo_plugins -- -j12 -l12
+[25.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/velodyne_gazebo_plugins
+[25.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[25.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/velodyne_gazebo_plugins
+[25.730s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins' for CMake module files
+[25.731s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins' for CMake config files
+[25.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[25.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[25.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[25.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[25.798s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib'
+[25.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[25.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[25.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[25.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[25.863s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/bin'
+[25.863s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[25.863s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib/python3.8/site-packages'
+[25.864s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/bin'
+[25.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[25.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[25.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[25.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[25.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[25.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[26.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_gazebo_plugins)
+[26.150s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins' for CMake module files
+[26.151s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins' for CMake config files
+[26.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'cmake_prefix_path')
+[26.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[26.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[26.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/cmake_prefix_path.sh'
+[26.269s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib'
+[26.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_gazebo_plugins', 'ld_library_path_lib')
+[26.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[26.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[26.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/hook/ld_library_path_lib.sh'
+[26.363s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/bin'
+[26.363s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib/pkgconfig/velodyne_gazebo_plugins.pc'
+[26.364s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib/python3.8/site-packages'
+[26.364s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/bin'
+[26.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.ps1'
+[26.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv'
+[26.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.sh'
+[26.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.bash'
+[26.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.zsh'
+[26.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/share/colcon-core/packages/velodyne_gazebo_plugins)
+[26.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator' with build type 'ament_cmake'
+[26.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator'
+[26.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_simulator
+[28.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_simulator -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_simulator
+[28.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_simulator -- -j12 -l12
+[28.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_simulator -- -j12 -l12
+[28.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/velodyne_simulator': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ceu/ros2_ws/build/velodyne_simulator
+[28.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[28.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/velodyne_simulator' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins:/home/ceu/ros2_ws/install/velodyne_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ceu/ros2_ws/build/velodyne_simulator
+[28.469s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator' for CMake module files
+[28.470s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator' for CMake config files
+[28.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[28.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[28.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[28.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[28.561s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/bin'
+[28.561s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[28.561s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/lib/python3.8/site-packages'
+[28.562s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/bin'
+[28.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[28.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[28.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[28.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[28.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[28.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[28.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(velodyne_simulator)
+[28.892s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator' for CMake module files
+[28.893s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator' for CMake config files
+[28.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('velodyne_simulator', 'cmake_prefix_path')
+[28.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.ps1'
+[28.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.dsv'
+[28.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/hook/cmake_prefix_path.sh'
+[28.981s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/bin'
+[28.982s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/lib/pkgconfig/velodyne_simulator.pc'
+[28.982s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/lib/python3.8/site-packages'
+[28.982s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/velodyne_simulator/bin'
+[29.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.ps1'
+[29.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.dsv'
+[29.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.sh'
+[29.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.bash'
+[29.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/velodyne_simulator/share/velodyne_simulator/package.zsh'
+[29.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/velodyne_simulator/share/colcon-core/packages/velodyne_simulator)
+[143.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/lio_sam -- -j12 -l12
+[143.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/lio_sam
+[144.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[144.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/lio_sam
+[144.356s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam' for CMake module files
+[144.358s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam' for CMake config files
+[144.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[144.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[144.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[144.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[144.475s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/lib'
+[144.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[144.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[144.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[144.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[144.563s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/bin'
+[144.563s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[144.563s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/lib/python3.8/site-packages'
+[144.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'pythonpath')
+[144.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/pythonpath.ps1'
+[144.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/pythonpath.dsv'
+[144.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/pythonpath.sh'
+[144.669s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/bin'
+[144.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.ps1'
+[144.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.dsv'
+[144.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.sh'
+[144.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.bash'
+[144.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.zsh'
+[144.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/lio_sam/share/colcon-core/packages/lio_sam)
+[145.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[145.120s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam' for CMake module files
+[145.121s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam' for CMake config files
+[145.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[145.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[145.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[145.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[145.214s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/lib'
+[145.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[145.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[145.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[145.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[145.296s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/bin'
+[145.297s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[145.297s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/lib/python3.8/site-packages'
+[145.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'pythonpath')
+[145.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/pythonpath.ps1'
+[145.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/pythonpath.dsv'
+[145.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/hook/pythonpath.sh'
+[145.387s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/lio_sam/bin'
+[145.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.ps1'
+[145.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.dsv'
+[145.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.sh'
+[145.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.bash'
+[145.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/lio_sam/share/lio_sam/package.zsh'
+[145.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/lio_sam/share/colcon-core/packages/lio_sam)
+[531.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4_msgs -- -j12 -l12
+[537.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4_msgs
+[538.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[538.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4_msgs
+[539.011s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs' for CMake module files
+[539.012s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs' for CMake config files
+[539.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[539.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[539.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[539.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[539.118s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/lib'
+[539.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[539.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[539.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[539.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[539.214s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/bin'
+[539.214s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[539.215s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages'
+[539.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[539.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[539.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[539.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[539.316s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/bin'
+[539.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[539.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[539.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[539.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[539.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[539.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[545.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[545.376s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs' for CMake module files
+[545.378s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs' for CMake config files
+[545.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[545.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[545.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[545.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[545.465s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/lib'
+[545.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[545.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[545.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[545.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[545.548s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/bin'
+[545.548s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[545.549s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages'
+[545.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[545.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[545.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[545.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[545.630s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_msgs/bin'
+[545.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[545.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[545.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[545.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[545.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[545.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[545.716s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ceu/ros2_ws/src/px4-offboard' with build type 'ament_python'
+[545.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[545.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[545.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[545.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[545.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[545.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[546.049s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ceu/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[546.049s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ceu/ros2_ws/src/px4_ros_com'
+[546.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[546.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[546.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ceu/ros2_ws/src/px4-offboard'
+[546.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[546.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[547.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ceu/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/px4_ros_com
+[547.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/src/px4-offboard': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/build/px4_offboard/prefix_override:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/ceu/ros2_ws/build/px4_offboard/build install --record /home/ceu/ros2_ws/build/px4_offboard/install.log --single-version-externally-managed
+[548.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/src/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/build/px4_offboard/prefix_override:/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages:/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/ceu/ros2_ws/build/px4_offboard/build install --record /home/ceu/ros2_ws/build/px4_offboard/install.log --single-version-externally-managed
+[548.525s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard' for CMake module files
+[548.526s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard' for CMake config files
+[548.528s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard/lib'
+[548.528s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard/bin'
+[548.528s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[548.528s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard/lib/python3.8/site-packages'
+[548.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[548.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[548.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[548.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[548.631s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_offboard/bin'
+[548.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[548.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/package.ps1'
+[548.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/package.dsv'
+[548.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/package.sh'
+[548.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/package.bash'
+[548.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_offboard/share/px4_offboard/package.zsh'
+[548.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[550.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ceu/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/px4_ros_com
+[550.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4_ros_com -- -j12 -l12
+[567.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4_ros_com -- -j12 -l12
+[567.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4_ros_com
+[567.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[567.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ceu/ros2_ws/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ceu/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ceu/ros2_ws/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4_ros_com
+[567.651s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com' for CMake module files
+[567.652s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com' for CMake config files
+[567.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[567.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[567.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[567.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[567.747s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/lib'
+[567.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[567.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[567.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[567.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[567.840s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/bin'
+[567.840s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[567.841s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages'
+[567.841s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/bin'
+[567.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[567.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[567.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[567.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[567.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[567.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[568.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[568.217s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com' for CMake module files
+[568.218s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com' for CMake config files
+[568.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[568.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[568.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[568.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[568.311s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/lib'
+[568.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[568.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[568.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[568.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[568.406s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/bin'
+[568.406s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[568.407s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/lib/python3.8/site-packages'
+[568.407s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4_ros_com/bin'
+[568.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[568.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[568.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[568.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[568.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[568.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[604.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/px4 -- -j12 -l12
+[605.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ceu/ros2_ws/build/px4': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4
+[606.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[606.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ceu/ros2_ws/build/px4' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/px4
+[606.402s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4' for CMake module files
+[606.404s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4' for CMake config files
+[606.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'cmake_prefix_path')
+[606.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.ps1'
+[606.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.dsv'
+[606.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.sh'
+[606.497s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/lib'
+[606.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ld_library_path_lib')
+[606.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.ps1'
+[606.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.dsv'
+[606.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.sh'
+[606.580s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/bin'
+[606.580s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/lib/pkgconfig/px4.pc'
+[606.580s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/lib/python3.8/site-packages'
+[606.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'pythonpath')
+[606.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/pythonpath.ps1'
+[606.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4/share/px4/hook/pythonpath.dsv'
+[606.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/pythonpath.sh'
+[606.664s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/bin'
+[606.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.ps1'
+[606.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4/share/px4/package.dsv'
+[606.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.sh'
+[606.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.bash'
+[606.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.zsh'
+[606.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4/share/colcon-core/packages/px4)
+[607.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[607.103s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4' for CMake module files
+[607.104s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4' for CMake config files
+[607.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'cmake_prefix_path')
+[607.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.ps1'
+[607.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.dsv'
+[607.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/cmake_prefix_path.sh'
+[607.187s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/lib'
+[607.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ld_library_path_lib')
+[607.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.ps1'
+[607.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.dsv'
+[607.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/ld_library_path_lib.sh'
+[607.263s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/bin'
+[607.263s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/lib/pkgconfig/px4.pc'
+[607.263s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/lib/python3.8/site-packages'
+[607.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'pythonpath')
+[607.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/pythonpath.ps1'
+[607.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ceu/ros2_ws/install/px4/share/px4/hook/pythonpath.dsv'
+[607.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ceu/ros2_ws/install/px4/share/px4/hook/pythonpath.sh'
+[607.338s] Level 1:colcon.colcon_core.environment:checking '/home/ceu/ros2_ws/install/px4/bin'
+[607.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.ps1'
+[607.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ceu/ros2_ws/install/px4/share/px4/package.dsv'
+[607.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.sh'
+[607.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.bash'
+[607.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/ceu/ros2_ws/install/px4/share/px4/package.zsh'
+[607.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ceu/ros2_ws/install/px4/share/colcon-core/packages/px4)
+[607.417s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[607.418s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[607.418s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[607.418s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[607.510s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[607.511s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[607.511s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[607.533s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[607.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ceu/ros2_ws/install/local_setup.ps1'
+[607.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ceu/ros2_ws/install/_local_setup_util_ps1.py'
+[607.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ceu/ros2_ws/install/setup.ps1'
+[607.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ceu/ros2_ws/install/local_setup.sh'
+[607.688s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ceu/ros2_ws/install/_local_setup_util_sh.py'
+[607.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ceu/ros2_ws/install/setup.sh'
+[607.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ceu/ros2_ws/install/local_setup.bash'
+[607.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ceu/ros2_ws/install/setup.bash'
+[607.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ceu/ros2_ws/install/local_setup.zsh'
+[607.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ceu/ros2_ws/install/setup.zsh'

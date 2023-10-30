@@ -1,0 +1,56 @@
+[0.389s] Invoking command in '/home/ceu/ros2_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/ros_gz_sim
+[0.762s] -- The C compiler identification is GNU 9.4.0
+[0.764s] -- The CXX compiler identification is GNU 9.4.0
+[0.765s] -- Check for working C compiler: /usr/bin/cc
+[0.765s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.766s] -- Detecting C compiler ABI info
+[0.766s] -- Detecting C compiler ABI info - done
+[0.766s] -- Detecting C compile features
+[0.766s] -- Detecting C compile features - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.767s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.857s] -- Detecting CXX compile features
+[0.858s] -- Detecting CXX compile features - done
+[0.861s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.887s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.180s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.258s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.343s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.372s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.560s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.572s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.576s] -- Looking for pthread.h
+[2.041s] -- Looking for pthread.h - found
+[2.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.516s] -- Looking for pthread_create in pthreads
+[2.642s] -- Looking for pthread_create in pthreads - not found
+[2.643s] -- Looking for pthread_create in pthread
+[2.718s] -- Looking for pthread_create in pthread - found
+[2.719s] -- Found Threads: TRUE  
+[2.719s] CMake Error at CMakeLists.txt:22 (find_package):
+[2.719s]   By not providing "Findgz-math7.cmake" in CMAKE_MODULE_PATH this project has
+[2.720s]   asked CMake to find a package configuration file provided by "gz-math7",
+[2.720s]   but CMake did not find one.
+[2.720s] 
+[2.720s]   Could not find a package configuration file provided by "gz-math7" with any
+[2.720s]   of the following names:
+[2.720s] 
+[2.720s]     gz-math7Config.cmake
+[2.720s]     gz-math7-config.cmake
+[2.720s] 
+[2.720s]   Add the installation prefix of "gz-math7" to CMAKE_PREFIX_PATH or set
+[2.720s]   "gz-math7_DIR" to a directory containing one of the above files.  If
+[2.720s]   "gz-math7" provides a separate development package or SDK, be sure it has
+[2.720s]   been installed.
+[2.720s] 
+[2.720s] 
+[2.720s] -- Configuring incomplete, errors occurred!
+[2.720s] See also "/home/ceu/ros2_ws/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".
+[2.721s] See also "/home/ceu/ros2_ws/build/ros_gz_sim/CMakeFiles/CMakeError.log".
+[2.721s] Invoked command in '/home/ceu/ros2_ws/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/ros_gz_sim

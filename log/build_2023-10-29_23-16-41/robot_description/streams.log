@@ -1,0 +1,68 @@
+[0.821s] Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_description
+[1.172s] -- The C compiler identification is GNU 9.4.0
+[1.173s] -- The CXX compiler identification is GNU 9.4.0
+[1.173s] -- Check for working C compiler: /usr/bin/cc
+[1.173s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.173s] -- Detecting C compiler ABI info
+[1.173s] -- Detecting C compiler ABI info - done
+[1.173s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.173s] -- Check for working CXX compiler: /usr/bin/c++
+[1.217s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.219s] -- Detecting CXX compiler ABI info
+[1.330s] -- Detecting CXX compiler ABI info - done
+[1.349s] -- Detecting CXX compile features
+[1.350s] -- Detecting CXX compile features - done
+[1.354s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.392s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.682s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[1.718s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.830s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.840s] -- Added test 'lint_cmake' to check CMake code style
+[1.846s] -- Added test 'xmllint' to check XML markup files
+[1.849s] -- Configuring done
+[1.853s] -- Generating done
+[1.855s] -- Build files have been written to: /home/ceu/ros2_ws/build/robot_description
+[1.862s] Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/robot_description
+[1.867s] Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_description -- -j12 -l12
+[1.918s] Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_description -- -j12 -l12
+[1.962s] Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_description
+[1.972s] -- Install configuration: ""
+[1.973s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot
+[1.973s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot/robot.urdf.xacro
+[1.973s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot/robot.urdf
+[1.973s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot/robot.sdf
+[1.973s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf
+[1.974s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/IMU
+[1.974s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/IMU/IMU.urdf.xacro
+[1.974s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/IMU/IMU.gazebo.xacro
+[1.974s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/base
+[1.974s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/base/base.urdf.xacro
+[1.975s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/base/base.gazebo.xacro
+[1.975s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/front_wheel
+[1.975s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.gazebo.xacro
+[1.975s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.urdf.xacro
+[1.975s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel
+[1.975s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.urdf.xacro
+[1.976s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.gazebo.xacro
+[1.976s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.transmission.xacro
+[1.976s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/suspension
+[1.976s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/suspension/suspension.gazebo.xacro
+[1.976s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/suspension/suspension.urdf.xacro
+[1.976s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.977s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.977s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.977s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.977s] -- Up-to-date: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.977s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.977s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.978s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/package.xml
+[1.981s] Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_description

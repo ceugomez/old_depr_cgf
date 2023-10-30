@@ -1,0 +1,5 @@
+[0.762s] Invoking command in '/home/ceu/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_description -- -j12 -l12
+[1.016s] CMake Error: The source directory "/home/ceu/ros2_ws/src/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_description" does not exist.
+[1.017s] Specify --help for usage, or press the help button on the CMake GUI.
+[1.019s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.026s] Invoked command in '/home/ceu/ros2_ws/build/velodyne_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_description -- -j12 -l12

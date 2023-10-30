@@ -1,0 +1,5 @@
+[0.582s] Invoking command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_gazebo_plugins -- -j12 -l12
+[0.862s] CMake Error: The source directory "/home/ceu/ros2_ws/src/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins" does not exist.
+[0.862s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.863s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.870s] Invoked command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/velodyne_gazebo_plugins -- -j12 -l12

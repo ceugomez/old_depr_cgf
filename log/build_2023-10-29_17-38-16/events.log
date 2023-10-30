@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (-) JobUnselected: {'identifier': 'publish_lidar_data'}
+[0.000131] (-) JobUnselected: {'identifier': 'px4'}
+[0.000164] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000187] (-) JobUnselected: {'identifier': 'px4_offboard'}
+[0.000202] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000217] (-) EventReactorShutdown: {}

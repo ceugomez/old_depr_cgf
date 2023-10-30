@@ -1,0 +1,1 @@
+Invoking command in '/home/ceu/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/ros2_ws/src/lio_sam_gazebo_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ceu/ros2_ws/install/velodyne_gazebo_plugins

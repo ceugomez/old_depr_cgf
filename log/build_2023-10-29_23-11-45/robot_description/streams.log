@@ -1,0 +1,40 @@
+[0.809s] Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_description -- -j12 -l12
+[1.076s] Invoked command in '/home/ceu/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/ros2_ws/build/robot_description -- -j12 -l12
+[1.109s] Invoking command in '/home/ceu/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/ros2_ws/build/robot_description
+[1.122s] -- Install configuration: ""
+[1.122s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot
+[1.123s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot/robot.urdf.xacro
+[1.123s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot/robot.urdf
+[1.123s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/robot/robot.sdf
+[1.123s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf
+[1.123s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/IMU
+[1.124s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/IMU/IMU.urdf.xacro
+[1.124s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/IMU/IMU.gazebo.xacro
+[1.124s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/base
+[1.124s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/base/base.urdf.xacro
+[1.124s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/base/base.gazebo.xacro
+[1.124s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/front_wheel
+[1.125s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.gazebo.xacro
+[1.125s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.urdf.xacro
+[1.125s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel
+[1.125s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.urdf.xacro
+[1.125s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.gazebo.xacro
+[1.126s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.transmission.xacro
+[1.126s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/suspension
+[1.126s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/suspension/suspension.gazebo.xacro
+[1.126s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/urdf/suspension/suspension.urdf.xacro
+[1.126s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.126s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.127s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.127s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.127s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.127s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.128s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.128s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.128s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.128s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.128s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[1.129s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.129s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.129s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.129s] -- Installing: /home/ceu/ros2_ws/install/robot_description/share/robot_description/package.xml

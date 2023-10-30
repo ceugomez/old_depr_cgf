@@ -378,24 +378,6 @@ OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
 
-//CXX compiler flags for OpenMP parallelization
-OpenMP_CXX_FLAGS:STRING=-fopenmp
-
-//CXX compiler libraries for OpenMP parallelization
-OpenMP_CXX_LIB_NAMES:STRING=gomp;pthread
-
-//C compiler flags for OpenMP parallelization
-OpenMP_C_FLAGS:STRING=-fopenmp
-
-//C compiler libraries for OpenMP parallelization
-OpenMP_C_LIB_NAMES:STRING=gomp;pthread
-
-//Path to the gomp library for OpenMP
-OpenMP_gomp_LIBRARY:FILEPATH=/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so
-
-//Path to the pthread library for OpenMP
-OpenMP_pthread_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
-
 //path to 2d headers
 PCL_2D_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
 
@@ -642,8 +624,17 @@ action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_copyright.
+ament_cmake_copyright_DIR:PATH=/opt/ros/foxy/share/ament_cmake_copyright/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/foxy/share/ament_cmake_core/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cppcheck.
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/foxy/share/ament_cmake_cppcheck/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cpplint.
+ament_cmake_cpplint_DIR:PATH=/opt/ros/foxy/share/ament_cmake_cpplint/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_definitions/cmake
@@ -666,6 +657,9 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_li
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_targets/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_flake8.
+ament_cmake_flake8_DIR:PATH=/opt/ros/foxy/share/ament_cmake_flake8/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_gmock.
 ament_cmake_gmock_DIR:PATH=/opt/ros/foxy/share/ament_cmake_gmock/cmake
 
@@ -677,6 +671,12 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/foxy/share/ament_cmake_include
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/foxy/share/ament_cmake_libraries/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
+ament_cmake_lint_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pep257.
+ament_cmake_pep257_DIR:PATH=/opt/ros/foxy/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_pytest.
 ament_cmake_pytest_DIR:PATH=/opt/ros/foxy/share/ament_cmake_pytest/cmake
@@ -693,11 +693,47 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/foxy/share/ament_cmake_target_
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/foxy/share/ament_cmake_test/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_uncrustify.
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/foxy/share/ament_cmake_uncrustify/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/foxy/share/ament_cmake_version/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_xmllint.
+ament_cmake_xmllint_DIR:PATH=/opt/ros/foxy/share/ament_cmake_xmllint/cmake
+
+//Path to a program.
+ament_copyright_BIN:FILEPATH=/opt/ros/foxy/bin/ament_copyright
+
+//Path to a program.
+ament_cppcheck_BIN:FILEPATH=/opt/ros/foxy/bin/ament_cppcheck
+
+//Path to a program.
+ament_cpplint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_cpplint
+
+//Path to a program.
+ament_flake8_BIN:FILEPATH=/opt/ros/foxy/bin/ament_flake8
+
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
+
+//The directory containing a CMake configuration file for ament_lint_auto.
+ament_lint_auto_DIR:PATH=/opt/ros/foxy/share/ament_lint_auto/cmake
+
+//Path to a program.
+ament_lint_cmake_BIN:FILEPATH=/opt/ros/foxy/bin/ament_lint_cmake
+
+//The directory containing a CMake configuration file for ament_lint_common.
+ament_lint_common_DIR:PATH=/opt/ros/foxy/share/ament_lint_common/cmake
+
+//Path to a program.
+ament_pep257_BIN:FILEPATH=/opt/ros/foxy/bin/ament_pep257
+
+//Path to a program.
+ament_uncrustify_BIN:FILEPATH=/opt/ros/foxy/bin/ament_uncrustify
+
+//Path to a program.
+ament_xmllint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
@@ -745,7 +781,7 @@ libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 lio_sam_BINARY_DIR:STATIC=/home/ceu/ros2_ws/build/lio_sam
 
 //Value Computed by CMake
-lio_sam_SOURCE_DIR:STATIC=/home/ceu/ros2_ws/src/LIO-SAM
+lio_sam_SOURCE_DIR:STATIC=/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2
 
 //Dependencies for the target
 lio_sam__python_LIB_DEPENDS:STATIC=general;lio_sam__rosidl_generator_c;general;/usr/lib/x86_64-linux-gnu/libpython3.8.so;general;lio_sam__rosidl_typesupport_c;general;/opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so;general;/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so;general;/opt/ros/foxy/share/sensor_msgs/cmake/../../../lib/libsensor_msgs__python.so;general;/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so;
@@ -954,6 +990,9 @@ unique_identifier_msgs_DIR:PATH=/opt/ros/foxy/share/unique_identifier_msgs/cmake
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/foxy/share/visualization_msgs/cmake
 
+//Path to a program.
+xmllint_BIN:FILEPATH=/usr/bin/xmllint
+
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/foxy/cmake
 
@@ -1100,7 +1139,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/ceu/ros2_ws/src/LIO-SAM
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/ceu/ros2_ws/lio_sam_gazebo_ros2/src/LIO-SAM-ros2
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -1177,12 +1216,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_FLANN:INTERNAL=[/usr/lib/x86_64-linux-gnu/libflann_
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/foxy/include][/opt/ros/foxy/lib/libfastrtps.so;/opt/ros/foxy/lib/libfastcdr.so][v()]
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v4.2.0()]
-//Details about finding OpenMP
-FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v4.5()]
-//Details about finding OpenMP_C
-FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C:INTERNAL=[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v4.5()]
-//Details about finding OpenMP_CXX
-FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX:INTERNAL=[-fopenmp][/usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so][/usr/lib/x86_64-linux-gnu/libpthread.so][v4.5()]
 //Details about finding OpenNI
 FIND_PACKAGE_MESSAGE_DETAILS_OpenNI:INTERNAL=[/usr/lib/libOpenNI.so][/usr/include/ni][v()]
 //Details about finding OpenNI2
@@ -1259,30 +1292,6 @@ OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_SSL_LIBRARY
 OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_CXX_fopenmp:INTERNAL=TRUE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmp:INTERNAL=TRUE
-//ADVANCED property for variable: OpenMP_CXX_FLAGS
-OpenMP_CXX_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenMP_CXX_LIB_NAMES
-OpenMP_CXX_LIB_NAMES-ADVANCED:INTERNAL=1
-//CXX compiler's OpenMP specification date
-OpenMP_CXX_SPEC_DATE:INTERNAL=201511
-//ADVANCED property for variable: OpenMP_C_FLAGS
-OpenMP_C_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenMP_C_LIB_NAMES
-OpenMP_C_LIB_NAMES-ADVANCED:INTERNAL=1
-//C compiler's OpenMP specification date
-OpenMP_C_SPEC_DATE:INTERNAL=201511
-//Result of TRY_COMPILE
-OpenMP_SPECTEST_CXX_:INTERNAL=TRUE
-//Result of TRY_COMPILE
-OpenMP_SPECTEST_C_:INTERNAL=TRUE
-//ADVANCED property for variable: OpenMP_gomp_LIBRARY
-OpenMP_gomp_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OpenMP_pthread_LIBRARY
-OpenMP_pthread_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_2D_INCLUDE_DIR
 PCL_2D_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_APPS_INCLUDE_DIR

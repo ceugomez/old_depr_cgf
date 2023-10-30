@@ -1,9 +1,0 @@
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/install/strip.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/install/local.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/install.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/list_install_components.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/rebuild_cache.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/edit_cache.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/test.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/robot_gazebo_uninstall.dir
-/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_gazebo/CMakeFiles/uninstall.dir

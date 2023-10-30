@@ -1,0 +1,7 @@
+/home/ceu/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+  File "/home/ceu/ros2_ws/install/publish_lidar_data/lib/python3.8/site-packages/publish_lidar_data/first_node.py", line 34
+    self.vehicle_status_callback,
+    ^
+SyntaxError: invalid syntax
+
