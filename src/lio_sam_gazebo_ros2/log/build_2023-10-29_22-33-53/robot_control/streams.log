@@ -1,0 +1,54 @@
+[0.156s] Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/Desktop/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control
+[0.217s] -- The C compiler identification is GNU 9.4.0
+[0.300s] -- The CXX compiler identification is GNU 9.4.0
+[0.305s] -- Check for working C compiler: /usr/bin/cc
+[0.384s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.386s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.485s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.586s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.713s] -- Detecting CXX compile features
+[0.714s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.751s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.751s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.049s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.176s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.179s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.179s] -- Added test 'lint_cmake' to check CMake code style
+[1.180s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.181s] -- Added test 'xmllint' to check XML markup files
+[1.184s] -- Configuring done
+[1.186s] -- Generating done
+[1.188s] -- Build files have been written to: /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control
+[1.192s] Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/Desktop/lio_sam_gazebo_ros2/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control
+[1.198s] Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control -- -j12 -l12
+[1.244s] Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control -- -j12 -l12
+[1.285s] Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control
+[1.295s] -- Install configuration: ""
+[1.295s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control//scripts
+[1.295s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control//scripts/robot_control.py
+[1.295s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control//launch
+[1.296s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control//launch/robot_control.launch.py
+[1.296s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/lib/robot_control/robot_control.py
+[1.296s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/lib/robot_control/robot_control.launch.py
+[1.296s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[1.297s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[1.297s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[1.297s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[1.297s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/environment/path.sh
+[1.297s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/environment/path.dsv
+[1.297s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/local_setup.bash
+[1.298s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/local_setup.sh
+[1.298s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/local_setup.zsh
+[1.298s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/local_setup.dsv
+[1.298s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/package.dsv
+[1.298s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[1.299s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[1.299s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[1.299s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/robot_control/share/robot_control/package.xml
+[1.307s] Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/Desktop/lio_sam_gazebo_ros2/build/robot_control

@@ -1,0 +1,591 @@
+[0.272s] Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2 -DCMAKE_INSTALL_PREFIX=/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam
+[0.326s] -- The C compiler identification is GNU 9.4.0
+[0.400s] -- The CXX compiler identification is GNU 9.4.0
+[0.405s] -- Check for working C compiler: /usr/bin/cc
+[0.481s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.483s] -- Detecting C compiler ABI info
+[0.566s] -- Detecting C compiler ABI info - done
+[0.579s] -- Detecting C compile features
+[0.579s] -- Detecting C compile features - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++
+[0.676s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.677s] -- Detecting CXX compiler ABI info
+[0.783s] -- Detecting CXX compiler ABI info - done
+[0.811s] -- Detecting CXX compile features
+[0.812s] -- Detecting CXX compile features - done
+[0.816s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.850s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.850s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.165s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.176s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.315s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.369s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.543s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.611s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.614s] -- Looking for pthread.h
+[1.698s] -- Looking for pthread.h - found
+[1.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.781s] -- Looking for pthread_create in pthreads
+[1.843s] -- Looking for pthread_create in pthreads - not found
+[1.844s] -- Looking for pthread_create in pthread
+[1.931s] -- Looking for pthread_create in pthread - found
+[1.933s] -- Found Threads: TRUE  
+[2.246s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[2.246s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.515s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.608s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.711s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[2.885s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.915s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.929s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.934s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.569s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[3.595s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.605s] -- Found OpenCV: /usr (found version "4.2.0") 
+[3.622s] -- Checking for module 'eigen3'
+[3.644s] --   Found eigen3, version 3.3.7
+[3.694s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.694s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.782s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[3.803s] -- Checking for module 'flann'
+[3.824s] --   Found flann, version 1.9.1
+[3.882s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.976s] -- The imported target "vtkParseOGLExt" references the file
+[3.977s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.977s] but this file does not exist.  Possible reasons include:
+[3.977s] * The file was deleted, renamed, or moved to another location.
+[3.977s] * An install or uninstall procedure did not complete successfully.
+[3.977s] * The installation package was faulty and contained
+[3.977s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.978s] but not all the files it references.
+[3.978s] 
+[3.979s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.979s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.979s] but this file does not exist.  Possible reasons include:
+[3.980s] * The file was deleted, renamed, or moved to another location.
+[3.980s] * An install or uninstall procedure did not complete successfully.
+[3.981s] * The installation package was faulty and contained
+[3.981s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.981s] but not all the files it references.
+[3.981s] 
+[3.982s] -- The imported target "vtk" references the file
+[3.982s]    "/usr/bin/vtk"
+[3.982s] but this file does not exist.  Possible reasons include:
+[3.982s] * The file was deleted, renamed, or moved to another location.
+[3.982s] * An install or uninstall procedure did not complete successfully.
+[3.983s] * The installation package was faulty and contained
+[3.983s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.983s] but not all the files it references.
+[3.983s] 
+[3.983s] -- The imported target "pvtk" references the file
+[3.984s]    "/usr/bin/pvtk"
+[3.984s] but this file does not exist.  Possible reasons include:
+[3.984s] * The file was deleted, renamed, or moved to another location.
+[3.984s] * An install or uninstall procedure did not complete successfully.
+[3.984s] * The installation package was faulty and contained
+[3.984s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.985s] but not all the files it references.
+[3.985s] 
+[4.013s] -- Checking for module 'libusb-1.0'
+[4.033s] --   Found libusb-1.0, version 1.0.23
+[4.083s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.154s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[4.155s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.230s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[4.230s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.230s] ** WARNING ** io features related to pcap will be disabled
+[4.230s] ** WARNING ** io features related to png will be disabled
+[4.258s] -- Found libusb-1.0: /usr/include  
+[4.261s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[4.270s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.278s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.323s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[4.324s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[4.328s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.342s] -- looking for PCL_COMMON
+[4.343s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.344s] -- looking for PCL_KDTREE
+[4.348s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.348s] -- looking for PCL_OCTREE
+[4.349s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.349s] -- looking for PCL_SEARCH
+[4.349s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.349s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.351s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.351s] -- looking for PCL_FILTERS
+[4.352s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.352s] -- looking for PCL_2D
+[4.355s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[4.355s] -- looking for PCL_GEOMETRY
+[4.356s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[4.357s] -- looking for PCL_IO
+[4.357s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.358s] -- looking for PCL_FEATURES
+[4.360s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.361s] -- looking for PCL_ML
+[4.362s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.363s] -- looking for PCL_SEGMENTATION
+[4.364s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.365s] -- looking for PCL_VISUALIZATION
+[4.367s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.369s] -- looking for PCL_SURFACE
+[4.370s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.371s] -- looking for PCL_REGISTRATION
+[4.372s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.372s] -- looking for PCL_KEYPOINTS
+[4.374s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.374s] -- looking for PCL_TRACKING
+[4.376s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.377s] -- looking for PCL_RECOGNITION
+[4.379s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.379s] -- looking for PCL_STEREO
+[4.382s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.383s] -- looking for PCL_APPS
+[4.384s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.384s] -- looking for PCL_IN_HAND_SCANNER
+[4.385s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[4.385s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.391s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[4.392s] -- looking for PCL_OUTOFCORE
+[4.393s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.393s] -- looking for PCL_PEOPLE
+[4.393s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.395s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[4.447s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[4.450s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[4.456s] -- Found Eigen: /usr/include/eigen3  
+[4.456s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.482s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.734s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.343s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.344s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.372s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.373s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.373s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.373s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.396s] -- Found PythonExtra: .so  
+[5.678s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.699s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.702s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.706s] -- Configured cppcheck include dirs: /home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam
+[5.706s] -- Configured cppcheck exclude dirs and/or files: 
+[5.709s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.709s] -- Configured cpplint exclude dirs and/or files: 
+[5.709s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.710s] -- Added test 'lint_cmake' to check CMake code style
+[5.711s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.713s] -- Added test 'uncrustify' to check C / C++ code style
+[5.713s] -- Configured uncrustify additional arguments: 
+[5.714s] -- Added test 'xmllint' to check XML markup files
+[5.721s] -- Configuring done
+[6.090s] -- Generating done
+[6.095s] -- Build files have been written to: /home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam
+[6.110s] Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2 -DCMAKE_INSTALL_PREFIX=/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam
+[6.114s] Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam -- -j12 -l12
+[6.160s] [35m[1mScanning dependencies of target lio_sam__cpp[0m
+[6.160s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.172s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.658s] [35m[1mScanning dependencies of target lio_sam__rosidl_generator_c[0m
+[6.667s] [  4%] Built target lio_sam__cpp
+[6.679s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.679s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.680s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.680s] [ 12%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[6.681s] [ 14%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[6.882s] [ 17%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[6.943s] [ 17%] Built target lio_sam__rosidl_generator_c
+[6.958s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.962s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.254s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_introspection_cpp[0m
+[7.279s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_cpp[0m
+[7.280s] [ 23%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[7.281s] [ 25%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[7.305s] [ 29%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[7.306s] [ 29%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[7.399s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp[0m
+[7.439s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[7.439s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[7.561s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_c[0m
+[7.589s] [ 36%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[7.590s] [ 38%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[7.675s] [ 40%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[7.686s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_introspection_c[0m
+[7.720s] [ 44%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[7.720s] [ 44%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[7.774s] [ 44%] Built target lio_sam__rosidl_typesupport_c
+[7.809s] [ 46%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[7.877s] [ 46%] Built target lio_sam__rosidl_typesupport_introspection_c
+[7.899s] [ 48%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[7.971s] [ 48%] Built target lio_sam__rosidl_typesupport_cpp
+[8.039s] [ 51%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[8.131s] [ 51%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[8.288s] [ 53%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.390s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[8.402s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.803s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_c[0m
+[8.828s] [ 57%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[8.828s] [ 59%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[9.407s] [ 61%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[9.535s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[9.548s] [35m[1mScanning dependencies of target lio_sam[0m
+[9.560s] [ 61%] Built target lio_sam
+[9.573s] [35m[1mScanning dependencies of target lio_sam__py[0m
+[9.573s] [35m[1mScanning dependencies of target lio_sam_featureExtraction[0m
+[9.573s] [35m[1mScanning dependencies of target lio_sam_imuPreintegration[0m
+[9.573s] [35m[1mScanning dependencies of target lio_sam_imageProjection[0m
+[9.574s] [35m[1mScanning dependencies of target lio_sam_mapOptimization[0m
+[9.587s] [ 63%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.857s] [ 65%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[9.868s] [ 68%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[9.869s] [ 70%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[9.880s] [ 72%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[10.929s] [ 72%] Built target lio_sam__py
+[10.945s] [35m[1mScanning dependencies of target lio_sam__python[0m
+[10.996s] [ 74%] [32mBuilding C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[11.001s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[11.400s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/liblio_sam__python.so[0m
+[11.475s] [ 78%] Built target lio_sam__python
+[11.492s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_c__pyext[0m
+[11.492s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.494s] [35m[1mScanning dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext[0m
+[11.530s] [ 80%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.532s] [ 82%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[11.539s] [ 85%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.748s] [ 87%] [32m[1mLinking CXX shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.773s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.818s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[11.856s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[11.885s] [ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[11.887s] [ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[21.577s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.577s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.577s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.577s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.577s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.578s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[21.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[21.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[21.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.578s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.579s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.579s] [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:14:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[21.579s]    14 |     ([01;35m[Kuint16_t[m[K, ring, ring) (float, time, time)
+[21.579s]       |      [01;35m[K^~~~~~~~[m[K
+[21.579s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[21.579s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.580s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.580s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.580s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.580s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[21.580s]       |         [01;36m[K^~~~~~~~[m[K
+[21.588s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.588s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.589s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.589s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.589s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.589s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.589s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[21.589s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[21.590s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[21.590s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.590s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.590s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.590s] [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:29:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[21.590s]    29 |     ([01;35m[Kuint32_t[m[K, t, t) (uint16_t, reflectivity, reflectivity)
+[21.590s]       |      [01;35m[K^~~~~~~~[m[K
+[21.591s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[21.591s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.591s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.591s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.591s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.591s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[21.591s]       |         [01;36m[K^~~~~~~~[m[K
+[21.591s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.592s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.592s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.592s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.592s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.592s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.592s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[21.592s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[21.592s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[21.593s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.593s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.593s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.593s] [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:29:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[21.593s]    29 |     (uint32_t, t, t) ([01;35m[Kuint16_t[m[K, reflectivity, reflectivity)
+[21.593s]       |                       [01;35m[K^~~~~~~~[m[K
+[21.593s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[21.594s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.594s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.594s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.594s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.594s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[21.594s]       |         [01;36m[K^~~~~~~~[m[K
+[21.594s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.594s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.595s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.595s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.595s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.595s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.595s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[21.595s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[21.596s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[21.596s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.596s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.596s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.597s] [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:30:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[21.597s]    30 |     ([01;35m[Kuint8_t[m[K, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[21.597s]       |      [01;35m[K^~~~~~~[m[K
+[21.597s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[21.597s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.597s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.598s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.598s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.598s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[21.598s]       |         [01;36m[K^~~~~~~[m[K
+[21.598s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.598s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.598s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.599s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.599s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.599s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.599s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[21.599s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[21.599s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[21.599s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.600s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.600s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.600s] [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:30:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[21.600s]    30 |     (uint8_t, ring, ring) ([01;35m[Kuint16_t[m[K, noise, noise) (uint32_t, range, range)
+[21.600s]       |                            [01;35m[K^~~~~~~~[m[K
+[21.600s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[21.600s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.600s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.601s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.601s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.601s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[21.601s]       |         [01;36m[K^~~~~~~~[m[K
+[21.601s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.602s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.602s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.602s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.602s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.602s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.602s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[21.602s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[21.602s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[21.603s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.603s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.603s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.603s] [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:30:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[21.603s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) ([01;35m[Kuint32_t[m[K, range, range)
+[21.603s]       |                                                     [01;35m[K^~~~~~~~[m[K
+[21.603s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[21.603s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[21.604s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/include/lio_sam/utility.hpp:21[m[K,
+[21.604s]                  from [01m[K/home/ceu/Desktop/lio_sam_gazebo_ros2/src/LIO-SAM-ros2/src/imageProjection.cpp:1[m[K:
+[21.604s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.604s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[21.604s]       |         [01;36m[K^~~~~~~~[m[K
+[43.567s] [ 93%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[44.851s] [ 93%] Built target lio_sam_featureExtraction
+[49.070s] [ 95%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[49.726s] [ 95%] Built target lio_sam_imageProjection
+[60.401s] [ 97%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[61.938s] [ 97%] Built target lio_sam_imuPreintegration
+[78.853s] [100%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[79.830s] [100%] Built target lio_sam_mapOptimization
+[79.841s] Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam -- -j12 -l12
+[79.915s] Invoking command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam
+[79.924s] -- Install configuration: "Release"
+[79.924s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[79.924s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[79.924s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg
+[79.925s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail
+[79.925s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.c
+[79.925s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.h
+[79.925s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.h
+[79.925s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.h
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/cloud_info.h
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.h
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.c
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.h
+[79.926s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.h
+[79.927s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/save_map.h
+[79.927s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/library_path.sh
+[79.927s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[79.927s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[79.927s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[79.927s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[79.927s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg
+[79.927s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[79.928s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail
+[79.928s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[79.928s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv
+[79.928s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail
+[79.928s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[79.928s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[79.928s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[79.929s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[79.929s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg
+[79.929s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail
+[79.929s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[79.929s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/dds_fastrtps
+[79.929s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[79.930s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv
+[79.930s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail
+[79.930s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[79.930s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/dds_fastrtps
+[79.930s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[79.930s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[79.930s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[79.930s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg
+[79.930s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[79.930s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail
+[79.931s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.c
+[79.931s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[79.931s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv
+[79.931s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail
+[79.931s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.c
+[79.931s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[79.931s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[79.931s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[79.931s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[79.932s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[79.932s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[79.932s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg
+[79.932s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[79.932s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/cloud_info.hpp
+[79.932s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail
+[79.932s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__builder.hpp
+[79.933s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__traits.hpp
+[79.933s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.hpp
+[79.933s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.hpp
+[79.933s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv
+[79.933s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail
+[79.933s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__traits.hpp
+[79.933s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.hpp
+[79.933s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__builder.hpp
+[79.934s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.hpp
+[79.934s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/save_map.hpp
+[79.934s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[79.934s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg
+[79.934s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail
+[79.934s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.cpp
+[79.934s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[79.934s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv
+[79.935s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail
+[79.935s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.cpp
+[79.935s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[79.935s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[79.935s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[79.936s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[79.936s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[79.936s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[79.936s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[79.937s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py
+[79.967s] Compiling '/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py'...
+[79.970s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg
+[79.970s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/__init__.py
+[79.970s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info_s.c
+[79.971s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info.py
+[79.971s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv
+[79.971s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map_s.c
+[79.971s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map.py
+[79.971s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/__init__.py
+[79.971s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[79.972s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[79.972s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[79.973s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[79.973s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[79.973s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[79.974s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__python.so
+[79.974s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/liblio_sam__python.so" to ""
+[79.974s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[79.974s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[79.974s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//launch
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//launch/run.launch.py
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config
+[79.975s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[79.976s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc
+[79.976s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[79.980s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[79.987s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[79.988s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[79.999s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[79.999s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[80.000s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[80.008s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[80.008s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[80.008s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[80.012s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[80.027s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/system.png
+[80.028s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[80.041s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[80.054s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[80.055s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/kitti2bag
+[80.055s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[80.055s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[80.055s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[80.057s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/params.yaml
+[80.057s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[80.057s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[80.059s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_imageProjection" to ""
+[80.059s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[80.061s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration" to ""
+[80.061s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[80.062s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction" to ""
+[80.062s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[80.065s] -- Set runtime path of "/home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization" to ""
+[80.065s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include
+[80.065s] -- Up-to-date: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam
+[80.065s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/include/lio_sam/utility.hpp
+[80.065s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[80.066s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[80.066s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[80.066s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[80.066s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/path.sh
+[80.066s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/environment/path.dsv
+[80.066s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/local_setup.bash
+[80.067s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/local_setup.sh
+[80.067s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/local_setup.zsh
+[80.067s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/local_setup.dsv
+[80.067s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/package.dsv
+[80.068s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[80.068s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake
+[80.068s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake
+[80.068s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[80.068s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[80.069s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[80.069s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[80.069s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cppExport.cmake
+[80.069s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[80.070s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[80.070s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[80.070s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[80.070s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[80.070s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[80.071s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[80.071s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[80.071s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[80.071s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[80.071s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[80.072s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[80.072s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[80.072s] -- Installing: /home/ceu/Desktop/lio_sam_gazebo_ros2/install/lio_sam/share/lio_sam/package.xml
+[80.075s] Invoked command in '/home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ceu/Desktop/lio_sam_gazebo_ros2/build/lio_sam
